@@ -9,7 +9,7 @@ iex -S mix run
 ```
 
 in elixir console try to convert to JSON string:
-```
+```elixir
 JsonFormater.stringify(<map | list | atom | string | float | int | true | false | nil>)
 ```
 
