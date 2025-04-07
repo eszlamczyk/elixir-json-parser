@@ -1,21 +1,15 @@
 # JsonParser
 
-**TODO: Add description**
+currently as just code module
 
-## Installation
+## Run
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `json_parser` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:json_parser, "~> 0.1.0"}
-  ]
-end
+```
+iex -S mix run
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/json_parser>.
+in elixir console try to convert to JSON string:
+```
+JsonFormater.stringify(<map | list | atom | string | float | int | true | false | nil>)
+```
 
